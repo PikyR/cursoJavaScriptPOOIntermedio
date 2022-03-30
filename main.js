@@ -1,5 +1,5 @@
 // Curso Intermedio de Programación Orientada a Objetos en JS
-
+// Clase 03
 const lero = {
   name: "Leri",
   age: 88,
