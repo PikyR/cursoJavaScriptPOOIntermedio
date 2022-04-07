@@ -37,6 +37,7 @@ function deepCopy(subject) {
   return copySubject;
 }
 
+// Objeto literal que representa una clase
 const studentBase = {
   name: undefined,
   email: undefined,
@@ -52,6 +53,7 @@ const studentBase = {
 
 const primerEstudiante = deepCopy(studentBase);
 
+// Encapsulamiento
 // Protegiendo para que no se pueda eliminar la propiedad "name"
 // Object.defineProperty(primerEstudiante, "name",{
 //   value: "Primerito",
