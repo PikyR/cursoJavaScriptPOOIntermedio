@@ -36,3 +36,8 @@ function recursiva(parametroArreglo) {
 }
 
 recursiva(arreglo2);
+// Salida 
+// 0
+// 111
+// ...
+// 666
