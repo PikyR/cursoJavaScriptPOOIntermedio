@@ -50,6 +50,7 @@ function createStudentC13({
 
   // Protegiendo contra modificaciones las funciones readName() y changeName()
   // aunque es contraproducente en un eventual polimorfismo
+  //
   // Object.defineProperty(public, "readName", {
   //   writable: false,
   //   configurable: false,
