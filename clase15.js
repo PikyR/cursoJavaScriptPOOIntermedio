@@ -97,7 +97,7 @@ function createStudent({
   return public;
 }
 
-const nuevoAlumno = new createStudent({name: "Fantasmano", email: "fant@sma.boo"});
+const nuevoAlumno = createStudent({name: "Fantasmano", email: "fant@sma.boo"});
 
 // Seteando un nuevo learning path para 'nuevoAlumno'
 // la asignacion funciona, aunque el nuevo LP no sea una instancia de createLearningPath()
